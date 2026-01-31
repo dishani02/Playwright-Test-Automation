@@ -102,12 +102,12 @@
                           "workerIndex": 0,
                           "parallelIndex": 0,
                           "status": "passed",
-                          "duration": 12634,
+                          "duration": 12307,
                           "errors": [],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2026-01-31T17:31:59.230Z",
+                          "startTime": "2026-01-31T17:37:33.281Z",
                           "annotations": [],
                           "attachments": []
                         }
@@ -122,7 +122,7 @@
                 },
                 {
                   "title": "Pos_Fun_0002 - Compound sentence with conjunction",
-                  "ok": false,
+                  "ok": true,
                   "tags": [],
                   "tests": [
                     {
@@ -135,48 +135,18 @@
                         {
                           "workerIndex": 0,
                           "parallelIndex": 0,
-                          "status": "failed",
-                          "duration": 6226,
-                          "error": {
-                            "message": "Error: page.waitForTimeout: Target page, context or browser has been closed",
-                            "stack": "Error: page.waitForTimeout: Target page, context or browser has been closed\n    at TranslatorPage.clearAndWait (C:\\Users\\Dishani Navanjana\\Desktop\\IT23367258_playwright_project\\tests\\IT23367258_translation.spec.ts:531:21)\n    at TranslatorPage.performTranslation (C:\\Users\\Dishani Navanjana\\Desktop\\IT23367258_playwright_project\\tests\\IT23367258_translation.spec.ts:562:5)\n    at C:\\Users\\Dishani Navanjana\\Desktop\\IT23367258_playwright_project\\tests\\IT23367258_translation.spec.ts:582:30",
-                            "location": {
-                              "file": "C:\\Users\\Dishani Navanjana\\Desktop\\IT23367258_playwright_project\\tests\\IT23367258_translation.spec.ts",
-                              "column": 21,
-                              "line": 531
-                            },
-                            "snippet": "\u001b[0m \u001b[90m 529 |\u001b[39m     \u001b[36mconst\u001b[39m input \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mgetInputField()\u001b[33m;\u001b[39m\n \u001b[90m 530 |\u001b[39m     \u001b[36mawait\u001b[39m input\u001b[33m.\u001b[39mfill(\u001b[32m''\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 531 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mwaitForTimeout(\u001b[33mCONFIG\u001b[39m\u001b[33m.\u001b[39mtimeouts\u001b[33m.\u001b[39mafterClear)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 532 |\u001b[39m   }\n \u001b[90m 533 |\u001b[39m\n \u001b[90m 534 |\u001b[39m   \u001b[36masync\u001b[39m typeInput(text\u001b[33m:\u001b[39m string) {\u001b[0m"
-                          },
-                          "errors": [
-                            {
-                              "location": {
-                                "file": "C:\\Users\\Dishani Navanjana\\Desktop\\IT23367258_playwright_project\\tests\\IT23367258_translation.spec.ts",
-                                "column": 21,
-                                "line": 531
-                              },
-                              "message": "Error: page.waitForTimeout: Target page, context or browser has been closed\n\n\u001b[0m \u001b[90m 529 |\u001b[39m     \u001b[36mconst\u001b[39m input \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mgetInputField()\u001b[33m;\u001b[39m\n \u001b[90m 530 |\u001b[39m     \u001b[36mawait\u001b[39m input\u001b[33m.\u001b[39mfill(\u001b[32m''\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 531 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mwaitForTimeout(\u001b[33mCONFIG\u001b[39m\u001b[33m.\u001b[39mtimeouts\u001b[33m.\u001b[39mafterClear)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 532 |\u001b[39m   }\n \u001b[90m 533 |\u001b[39m\n \u001b[90m 534 |\u001b[39m   \u001b[36masync\u001b[39m typeInput(text\u001b[33m:\u001b[39m string) {\u001b[0m\n\u001b[2m    at TranslatorPage.clearAndWait (C:\\Users\\Dishani Navanjana\\Desktop\\IT23367258_playwright_project\\tests\\IT23367258_translation.spec.ts:531:21)\u001b[22m\n\u001b[2m    at TranslatorPage.performTranslation (C:\\Users\\Dishani Navanjana\\Desktop\\IT23367258_playwright_project\\tests\\IT23367258_translation.spec.ts:562:5)\u001b[22m\n\u001b[2m    at C:\\Users\\Dishani Navanjana\\Desktop\\IT23367258_playwright_project\\tests\\IT23367258_translation.spec.ts:582:30\u001b[22m"
-                            }
-                          ],
+                          "status": "passed",
+                          "duration": 12842,
+                          "errors": [],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2026-01-31T17:32:12.365Z",
+                          "startTime": "2026-01-31T17:37:46.381Z",
                           "annotations": [],
-                          "attachments": [
-                            {
-                              "name": "video",
-                              "contentType": "video/webm",
-                              "path": "C:\\Users\\Dishani Navanjana\\Desktop\\IT23367258_playwright_project\\test-results\\IT23367258_translation-Sin-0d176-d-sentence-with-conjunction-chromium\\video.webm"
-                            }
-                          ],
-                          "errorLocation": {
-                            "file": "C:\\Users\\Dishani Navanjana\\Desktop\\IT23367258_playwright_project\\tests\\IT23367258_translation.spec.ts",
-                            "column": 21,
-                            "line": 531
-                          }
+                          "attachments": []
                         }
                       ],
-                      "status": "unexpected"
+                      "status": "expected"
                     }
                   ],
                   "id": "e50b15dc011982d23be1-2d66a57967133fc5886c",
@@ -195,8 +165,22 @@
                       "expectedStatus": "passed",
                       "projectId": "chromium",
                       "projectName": "chromium",
-                      "results": [],
-                      "status": "skipped"
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 12691,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-01-31T17:37:59.316Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
                     }
                   ],
                   "id": "e50b15dc011982d23be1-087ddeeaee1cfe0e94e2",
@@ -206,7 +190,7 @@
                 },
                 {
                   "title": "Pos_Fun_0004 - Interrogative question form.",
-                  "ok": true,
+                  "ok": false,
                   "tags": [],
                   "tests": [
                     {
@@ -215,8 +199,120 @@
                       "expectedStatus": "passed",
                       "projectId": "chromium",
                       "projectName": "chromium",
-                      "results": [],
-                      "status": "skipped"
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
+                          "status": "failed",
+                          "duration": 21253,
+                          "error": {
+                            "message": "TimeoutError: page.waitForFunction: Timeout 12000ms exceeded.",
+                            "stack": "TimeoutError: page.waitForFunction: Timeout 12000ms exceeded.\n    at TranslatorPage.waitForOutput (C:\\Users\\Dishani Navanjana\\Desktop\\IT23367258_playwright_project\\tests\\IT23367258_translation.spec.ts:540:21)\n    at TranslatorPage.performTranslation (C:\\Users\\Dishani Navanjana\\Desktop\\IT23367258_playwright_project\\tests\\IT23367258_translation.spec.ts:564:16)\n    at C:\\Users\\Dishani Navanjana\\Desktop\\IT23367258_playwright_project\\tests\\IT23367258_translation.spec.ts:582:30",
+                            "location": {
+                              "file": "C:\\Users\\Dishani Navanjana\\Desktop\\IT23367258_playwright_project\\tests\\IT23367258_translation.spec.ts",
+                              "column": 21,
+                              "line": 540
+                            },
+                            "snippet": "\u001b[0m \u001b[90m 538 |\u001b[39m\n \u001b[90m 539 |\u001b[39m   \u001b[36masync\u001b[39m waitForOutput() {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 540 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mwaitForFunction(\n \u001b[90m     |\u001b[39m                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 541 |\u001b[39m       (selector) \u001b[33m=>\u001b[39m {\n \u001b[90m 542 |\u001b[39m         \u001b[36mconst\u001b[39m elements \u001b[33m=\u001b[39m \u001b[33mArray\u001b[39m\u001b[33m.\u001b[39m\u001b[36mfrom\u001b[39m(document\u001b[33m.\u001b[39mquerySelectorAll(selector))\u001b[33m;\u001b[39m\n \u001b[90m 543 |\u001b[39m         \u001b[36mconst\u001b[39m output \u001b[33m=\u001b[39m elements\u001b[33m.\u001b[39mfind(el \u001b[33m=>\u001b[39m {\u001b[0m"
+                          },
+                          "errors": [
+                            {
+                              "location": {
+                                "file": "C:\\Users\\Dishani Navanjana\\Desktop\\IT23367258_playwright_project\\tests\\IT23367258_translation.spec.ts",
+                                "column": 21,
+                                "line": 540
+                              },
+                              "message": "TimeoutError: page.waitForFunction: Timeout 12000ms exceeded.\n\n\u001b[0m \u001b[90m 538 |\u001b[39m\n \u001b[90m 539 |\u001b[39m   \u001b[36masync\u001b[39m waitForOutput() {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 540 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mwaitForFunction(\n \u001b[90m     |\u001b[39m                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 541 |\u001b[39m       (selector) \u001b[33m=>\u001b[39m {\n \u001b[90m 542 |\u001b[39m         \u001b[36mconst\u001b[39m elements \u001b[33m=\u001b[39m \u001b[33mArray\u001b[39m\u001b[33m.\u001b[39m\u001b[36mfrom\u001b[39m(document\u001b[33m.\u001b[39mquerySelectorAll(selector))\u001b[33m;\u001b[39m\n \u001b[90m 543 |\u001b[39m         \u001b[36mconst\u001b[39m output \u001b[33m=\u001b[39m elements\u001b[33m.\u001b[39mfind(el \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[2m    at TranslatorPage.waitForOutput (C:\\Users\\Dishani Navanjana\\Desktop\\IT23367258_playwright_project\\tests\\IT23367258_translation.spec.ts:540:21)\u001b[22m\n\u001b[2m    at TranslatorPage.performTranslation (C:\\Users\\Dishani Navanjana\\Desktop\\IT23367258_playwright_project\\tests\\IT23367258_translation.spec.ts:564:16)\u001b[22m\n\u001b[2m    at C:\\Users\\Dishani Navanjana\\Desktop\\IT23367258_playwright_project\\tests\\IT23367258_translation.spec.ts:582:30\u001b[22m"
+                            }
+                          ],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-01-31T17:38:12.060Z",
+                          "annotations": [],
+                          "attachments": [
+                            {
+                              "name": "screenshot",
+                              "contentType": "image/png",
+                              "path": "C:\\Users\\Dishani Navanjana\\Desktop\\IT23367258_playwright_project\\test-results\\IT23367258_translation-Sin-0fcf5-nterrogative-question-form--chromium\\test-failed-1.png"
+                            },
+                            {
+                              "name": "video",
+                              "contentType": "video/webm",
+                              "path": "C:\\Users\\Dishani Navanjana\\Desktop\\IT23367258_playwright_project\\test-results\\IT23367258_translation-Sin-0fcf5-nterrogative-question-form--chromium\\video.webm"
+                            },
+                            {
+                              "name": "error-context",
+                              "contentType": "text/markdown",
+                              "path": "C:\\Users\\Dishani Navanjana\\Desktop\\IT23367258_playwright_project\\test-results\\IT23367258_translation-Sin-0fcf5-nterrogative-question-form--chromium\\error-context.md"
+                            }
+                          ],
+                          "errorLocation": {
+                            "file": "C:\\Users\\Dishani Navanjana\\Desktop\\IT23367258_playwright_project\\tests\\IT23367258_translation.spec.ts",
+                            "column": 21,
+                            "line": 540
+                          }
+                        },
+                        {
+                          "workerIndex": 1,
+                          "parallelIndex": 0,
+                          "status": "failed",
+                          "duration": 41493,
+                          "error": {
+                            "message": "Error: page.goto: net::ERR_TIMED_OUT at https://www.swifttranslator.com/\nCall log:\n\u001b[2m  - navigating to \"https://www.swifttranslator.com/\", waiting until \"load\"\u001b[22m\n",
+                            "stack": "Error: page.goto: net::ERR_TIMED_OUT at https://www.swifttranslator.com/\nCall log:\n\u001b[2m  - navigating to \"https://www.swifttranslator.com/\", waiting until \"load\"\u001b[22m\n\n    at TranslatorPage.navigateToSite (C:\\Users\\Dishani Navanjana\\Desktop\\IT23367258_playwright_project\\tests\\IT23367258_translation.spec.ts:515:21)\n    at C:\\Users\\Dishani Navanjana\\Desktop\\IT23367258_playwright_project\\tests\\IT23367258_translation.spec.ts:575:22",
+                            "location": {
+                              "file": "C:\\Users\\Dishani Navanjana\\Desktop\\IT23367258_playwright_project\\tests\\IT23367258_translation.spec.ts",
+                              "column": 21,
+                              "line": 515
+                            },
+                            "snippet": "\u001b[0m \u001b[90m 513 |\u001b[39m\n \u001b[90m 514 |\u001b[39m   \u001b[36masync\u001b[39m navigateToSite() {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 515 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mgoto(\u001b[33mCONFIG\u001b[39m\u001b[33m.\u001b[39murl)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 516 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mwaitForLoadState(\u001b[32m'networkidle'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 517 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mwaitForTimeout(\u001b[33mCONFIG\u001b[39m\u001b[33m.\u001b[39mtimeouts\u001b[33m.\u001b[39mpageLoad)\u001b[33m;\u001b[39m\n \u001b[90m 518 |\u001b[39m   }\u001b[0m"
+                          },
+                          "errors": [
+                            {
+                              "location": {
+                                "file": "C:\\Users\\Dishani Navanjana\\Desktop\\IT23367258_playwright_project\\tests\\IT23367258_translation.spec.ts",
+                                "column": 21,
+                                "line": 515
+                              },
+                              "message": "Error: page.goto: net::ERR_TIMED_OUT at https://www.swifttranslator.com/\nCall log:\n\u001b[2m  - navigating to \"https://www.swifttranslator.com/\", waiting until \"load\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 513 |\u001b[39m\n \u001b[90m 514 |\u001b[39m   \u001b[36masync\u001b[39m navigateToSite() {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 515 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mgoto(\u001b[33mCONFIG\u001b[39m\u001b[33m.\u001b[39murl)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 516 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mwaitForLoadState(\u001b[32m'networkidle'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 517 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mwaitForTimeout(\u001b[33mCONFIG\u001b[39m\u001b[33m.\u001b[39mtimeouts\u001b[33m.\u001b[39mpageLoad)\u001b[33m;\u001b[39m\n \u001b[90m 518 |\u001b[39m   }\u001b[0m\n\u001b[2m    at TranslatorPage.navigateToSite (C:\\Users\\Dishani Navanjana\\Desktop\\IT23367258_playwright_project\\tests\\IT23367258_translation.spec.ts:515:21)\u001b[22m\n\u001b[2m    at C:\\Users\\Dishani Navanjana\\Desktop\\IT23367258_playwright_project\\tests\\IT23367258_translation.spec.ts:575:22\u001b[22m"
+                            }
+                          ],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 1,
+                          "startTime": "2026-01-31T17:38:52.735Z",
+                          "annotations": [],
+                          "attachments": [
+                            {
+                              "name": "screenshot",
+                              "contentType": "image/png",
+                              "path": "C:\\Users\\Dishani Navanjana\\Desktop\\IT23367258_playwright_project\\test-results\\IT23367258_translation-Sin-0fcf5-nterrogative-question-form--chromium-retry1\\test-failed-1.png"
+                            },
+                            {
+                              "name": "video",
+                              "contentType": "video/webm",
+                              "path": "C:\\Users\\Dishani Navanjana\\Desktop\\IT23367258_playwright_project\\test-results\\IT23367258_translation-Sin-0fcf5-nterrogative-question-form--chromium-retry1\\video.webm"
+                            },
+                            {
+                              "name": "error-context",
+                              "contentType": "text/markdown",
+                              "path": "C:\\Users\\Dishani Navanjana\\Desktop\\IT23367258_playwright_project\\test-results\\IT23367258_translation-Sin-0fcf5-nterrogative-question-form--chromium-retry1\\error-context.md"
+                            },
+                            {
+                              "name": "trace",
+                              "contentType": "application/zip",
+                              "path": "C:\\Users\\Dishani Navanjana\\Desktop\\IT23367258_playwright_project\\test-results\\IT23367258_translation-Sin-0fcf5-nterrogative-question-form--chromium-retry1\\trace.zip"
+                            }
+                          ],
+                          "errorLocation": {
+                            "file": "C:\\Users\\Dishani Navanjana\\Desktop\\IT23367258_playwright_project\\tests\\IT23367258_translation.spec.ts",
+                            "column": 21,
+                            "line": 515
+                          }
+                        }
+                      ],
+                      "status": "unexpected"
                     }
                   ],
                   "id": "e50b15dc011982d23be1-85722d48062d34c155a5",
@@ -235,7 +331,21 @@
                       "expectedStatus": "passed",
                       "projectId": "chromium",
                       "projectName": "chromium",
-                      "results": [],
+                      "results": [
+                        {
+                          "workerIndex": 2,
+                          "parallelIndex": 0,
+                          "status": "interrupted",
+                          "duration": 8,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-01-31T17:39:46.523Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
                       "status": "skipped"
                     }
                   ],
@@ -989,10 +1099,10 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-01-31T17:31:55.572Z",
-    "duration": 24657.048,
-    "expected": 1,
-    "skipped": 39,
+    "startTime": "2026-01-31T17:37:30.192Z",
+    "duration": 138476.85,
+    "expected": 3,
+    "skipped": 37,
     "unexpected": 1,
     "flaky": 0
   }
