@@ -1,5 +1,5 @@
 # Playwright-Test-Automation
-This repository contains an automated testing framework developed using Playwright with TypeScript. It is designed to test the functionality of a Singlish to Sinhala Translator web application. 
+This repository contains an automated testing framework developed using Playwright with TypeScript.
 
 This project contains automated test cases for the Singlish to Sinhala translator available at https://www.swifttranslator.com/
 
