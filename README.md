@@ -72,7 +72,7 @@ After running tests, generate and open the report
 npx playwright show-report
 ```
 
-
+---
 
 ##  Test Suite Overview
 
@@ -128,6 +128,7 @@ Test results are generated in the following locations:
 - HTML Report: `playwright-report/index.html`
 - Test Results: `test-results/`
 
+---
 
 ## Configuration
 Test configuration is defined in playwright.config.js. The default configuration:
