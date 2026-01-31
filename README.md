@@ -95,7 +95,7 @@ The positive functional tests validate:
 - Grammatical variations: singular/plural and pronoun forms  
 - Everyday expressions: day-to-day conversational usage  
 
----
+
 
 ### 2. Negative Functional Test Cases
 
@@ -111,7 +111,7 @@ These tests handle invalid or unexpected inputs, including:
 - Empty input handling  
 - Slang and informal language edge cases  
 
----
+
 
 ### 3. UI Test Cases
 
@@ -121,7 +121,7 @@ The UI tests validate:
 - Real-time output update behavior  
 - Clear input functionality  
 
----
+
 
 Test results are generated in the following locations:
 
@@ -137,6 +137,7 @@ Test configuration is defined in playwright.config.js. The default configuration
 - Generates HTML reports
 - Includes trace on first retry
 
+---
 ## Notes
 - Tests wait for real-time conversion (the application updates automatically)
 - All tests include proper wait times for asynchronous updates
